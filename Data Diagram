@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T20:36:26.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="oSpkDsUrjV01Pbj5zS4l" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T20:51:44.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="0VCmOTe2xk_2hdEULV9N" version="15.5.5" type="github">
   <diagram id="-37tpBEdaGtFhcCoYuNu" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="qaGlAI_kMwjUqUwYIpuv-26" value="artist_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="qaGlAI_kMwjUqUwYIpuv-15">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qaGlAI_kMwjUqUwYIpuv-27" value="relationship" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="qaGlAI_kMwjUqUwYIpuv-15">
+        <mxCell id="qaGlAI_kMwjUqUwYIpuv-27" value="relationship_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="qaGlAI_kMwjUqUwYIpuv-15">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qaGlAI_kMwjUqUwYIpuv-23" value="regions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -65,6 +65,15 @@
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qaGlAI_kMwjUqUwYIpuv-25" value="region_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="qaGlAI_kMwjUqUwYIpuv-23">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qaGlAI_kMwjUqUwYIpuv-28" value="relationships" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qaGlAI_kMwjUqUwYIpuv-29" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="qaGlAI_kMwjUqUwYIpuv-28">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qaGlAI_kMwjUqUwYIpuv-30" value="relationship" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="qaGlAI_kMwjUqUwYIpuv-28">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
